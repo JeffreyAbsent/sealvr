@@ -23,8 +23,9 @@ Deployment:
     # 或者使用wget
    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 3. nvm install 18.18.0
-4. npm install
-5. npm run build
-6. nohup npm start
+4. nvm use 18.18.0
+5. npm install
+6. npm run build
+7. nohup npm start
 
 Let me know if you need further adjustments!
