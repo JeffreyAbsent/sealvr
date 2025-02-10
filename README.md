@@ -18,6 +18,13 @@ To Run the Project Locally:
 
 Deployment:
 
-To deploy online, use any PaaS that supports networks in China.
+1. install nvm
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    # 或者使用wget
+   wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+3. nvm install 18.18.0
+4. npm install
+5. npm run build
+6. nohup npm start
 
 Let me know if you need further adjustments!
